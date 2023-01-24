@@ -5,8 +5,12 @@ const Kitchen = (props) => {
   return ( 
     <>
     <h2>Kitchen</h2>
-    <Oven />
-    <Sink />
+    <div>
+      <Oven />
+    </div>
+    <div>
+      <Sink />
+    </div>
     </>
     
   )
